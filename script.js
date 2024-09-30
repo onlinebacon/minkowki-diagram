@@ -192,8 +192,8 @@ const render = () => {
 	
 	drawGrid();
 	projectPoints(proj)
-	drawPoints();
 	drawLines();
+	drawPoints();
 	drawCursor(Data.cursor.apply(proj));
 	drawMouseLines();
 };
